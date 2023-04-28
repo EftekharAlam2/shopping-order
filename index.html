@@ -16,7 +16,7 @@
     <header>
       <div class="navbar bg-base-100 shadow-2xl lg:px-12">
         <div class="flex-1">
-          <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a class="btn btn-ghost normal-case text-xl">Shooping Cart</a>
         </div>
         <div class="flex-none gap-2">
           <div class="form-control">
@@ -54,7 +54,6 @@
         <div
           class="products-cetails w-full md:w-[60%] lg:w-[60%] mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-6"
         >
-          <!-- first card  -->
           <div class="card card-compact w-full bg-base-100 shadow-xl">
             <figure>
               <img class="w-full h-40" src="./img/coffee.jpg" alt="Shoes" />
@@ -74,7 +73,6 @@
               </div>
             </div>
           </div>
-          <!-- second card  -->
           <div class="card card-compact w-full bg-base-100 shadow-xl">
             <figure>
               <img class="w-full h-40" src="./img/heart_js.jpg" alt="Shoes" />
@@ -114,7 +112,6 @@
               </div>
             </div>
           </div>
-          <!-- fourth card  -->
           <div class="card card-compact w-full bg-base-100 shadow-xl">
             <figure>
               <img class="w-full h-40" src="./img/umbrella.png" alt="Shoes" />
@@ -134,7 +131,6 @@
               </div>
             </div>
           </div>
-          <!-- last card  -->
           <div class="card card-compact w-full bg-base-100 shadow-xl">
             <figure>
               <img class="w-full h-40" src="./img/vue-js.jpg" alt="Shoes" />
@@ -145,8 +141,6 @@
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Labore, omnis.
               </p>
-              <!-- <p>Price: $<span>400</span></p>
-              <p>Quantity: <span>3</span></p> -->
               <input
                 type="text"
                 id="first-input"
@@ -168,10 +162,9 @@
           </div>
         </div>
 
-        <!-- cart details div  -->
         <div class="cart-details w-full md:w-[40%] lg:w-[40%] mx-auto">
           <h1 class="text-3xl text-center font-bold underline mt-5">
-            ToTal Products: <span id="total-product">0</span>
+            Total Products: <span id="total-product">0</span>
           </h1>
           <div class="overflow-x-auto">
             <table class="table w-full">
@@ -184,14 +177,7 @@
                   <th>Total</th>
                 </tr>
               </thead>
-              <tbody id="table-container">
-                <!-- <tr>
-                  <th>1</th>
-                  <td>Cy Ganderton</td>
-                  <td>Quality Control Specialist</td>
-                  <td>Blue</td>
-                </tr> -->
-              </tbody>
+              <tbody id="table-container"></tbody>
             </table>
           </div>
         </div>
